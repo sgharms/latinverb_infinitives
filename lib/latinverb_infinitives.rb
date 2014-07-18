@@ -1,5 +1,7 @@
-require "latinverb_infinitives/version"
+require "forwardable"
 
-module LatinverbInfinitives
-  # Your code goes here...
-end
+require "latinverb_infinitives/version"
+require "latinverb_infinitives/infinitives_factory"
+require "latinverb_infinitives/infinitives_factory/infinitivizer"
+require "latinverb_infinitives/infinitives_factory/deponent_infinitivizer"
+require "latinverb_infinitives/infinitives_factory/passive_infinitive_factory"
